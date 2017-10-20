@@ -1,6 +1,9 @@
 #+TITLE: Acl module for Puppet
 
 * Description
+This a module that was lifted nearly byte by byte from https://github.com/dobbymoodge/puppet-acl. We needed the functionality, but it's
+name conflicted with the approved acl module for Windows.
+
 This plugin module provides a way to set POSIX 1.e (and other standards) file ACLs via Puppet.
 
 * Usage:
@@ -120,7 +123,7 @@ The =unset= option for the =action= parameter will specify the set of ACLs guara
 ** Using action => purge:
 The =purge= option for the =action= parameter will cause Puppet to remove any file ACLs applied to the path.
 
-NOTE: Although the =permission= property is unused for this action, it needs to have a valid ACL value for the action to work. This is a known issue. 
+NOTE: Although the =permission= property is unused for this action, it needs to have a valid ACL value for the action to work. This is a known issue.
 *** Initial permissions:
     : # file /var/www/site1
     : user::rwx

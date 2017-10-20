@@ -1,12 +1,12 @@
 {
-  "name": "dobbymoodge-acl",
+  "name": "autostructure-acl_posix",
   "version": "0.0.3",
-  "author": "https://github.com/dobbymoodge/puppet-acl/graphs/contributors",
-  "summary": "Puppet ACL Module",
+  "author": "https://github.com/autostructure/acl_posix/graphs/contributors",
+  "summary": "Puppet ACL POSIX Module",
   "license": "Apache-2.0",
-  "source": "git://github.com/dobbymoodge/puppet-acl.git",
-  "project_page": "http://github.com/dobbymoodge/puppet-acl",
-  "issues_url": "https://github.com/dobbymoodge/puppet-acl/issues",
+  "source": "https://github.com/autostructure/acl_posix.git",
+  "project_page": "https://github.com/autostructure/acl_posix",
+  "issues_url": "https://github.com/autostructure/acl_posix/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
